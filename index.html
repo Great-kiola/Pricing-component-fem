@@ -14,34 +14,71 @@
 <body>
 
   <main>
-    
-    Our Pricing
-    Annually
-    Monthly
-  
-    Basic
-    &dollar;19.99
-    &dollar;199.99
-    500 GB Storage
-    2 Users Allowed
-    Send up to 3 GB
-    Learn More
-  
-    Professional
-    &dollar;24.99
-    &dollar;249.99
-    1 TB Storage
-    5 Users Allowed
-    Send up to 10 GB
-    Learn More
-  
-    Master
-    &dollar;39.99
-    &dollar;399.99
-    2 TB Storage
-    10 Users Allowed
-    Send up to 20 GB
-    Learn More
+
+    <h1>Our Pricing</h1>
+
+    <div class="toogleDiv">
+      <h2>  Monthly </h2>
+      <label for="toggle"></label>
+      <h2>Annually</h2>
+    </div>
+
+
+    <div class="pricingContainer">
+
+      <div id="basic" class="containers">
+        <h2> Basic</h2>
+
+        <div class="priceBox">
+          <h1 class="show">&dollar; <span id="basicPrice" >199.99</span> </h1>
+          <h1>&dollar; <span id="basicPrice" >19.99</span> </h1>
+        </div>
+
+        
+        <ul>
+          <li> 500 GB Storage </li>
+          <li> 2 Users Allowed </li>
+          <li> Send up to 3 GB </li>
+        </ul>
+
+        <button class="btn"> Learn More </button>
+
+      </div>
+
+
+      <div id="Professional" class="containers">
+        <h2>Professional</h2>
+
+        <h1>&dollar; <span id="professionalPrice" >19.99</span> </h1>
+        
+        <ul>
+          <li> 500 GB Storage </li>
+          <li> 2 Users Allowed </li>
+          <li> Send up to 3 GB </li>
+        </ul>
+
+        <button class="profBtn"> Learn More </button>
+
+      </div>
+
+
+      <div id="Master" class="containers">
+        <h2>Master</h2>
+
+        <h1>&dollar; <span id="masterPrice" >19.99</span> </h1>
+        
+        <ul>
+          <li> 500 GB Storage </li>
+          <li> 2 Users Allowed </li>
+          <li> Send up to 3 GB </li>
+        </ul>
+
+        <button class="btn"> Learn More </button>
+
+      </div>
+
+
+    </div>
 
   </main>
 
@@ -54,6 +91,8 @@
       Coded by <a href="https://www.frontendmentor.io/profile/Great-kiola">Olabode Kilaso </a>
     </div>
   </footer>
+
+  <script src="script.js"></script>
   
 
 </body>
