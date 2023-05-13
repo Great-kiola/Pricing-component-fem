@@ -89,7 +89,7 @@ label.active{
   position: relative;
 }
 
-h1.show{
+.priceBox h1.show{
   position: absolute;
   top: 0;
   visibility: hidden;
