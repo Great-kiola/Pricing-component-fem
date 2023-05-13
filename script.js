@@ -3,16 +3,17 @@ let basic = document.getElementById('basicPrice');
 let master = document.getElementById('masterPrice');
 let professional = document.getElementById('professionalPrice');
 
+let yearly = document.getElementById('yearly');
+let monthly = document.getElementById('monthly');
+
 
 
 
 toggle.addEventListener('click', () => {
     toggle.classList.toggle('active');
 
-    
 
-    basic.innerText = '199.99';
-    professional.innerText = '249.99';
-    master.innerText = '399.99';
+    yearly.classList.toggle('show');
+    monthly.classList.toggle('show');
 
 })
