@@ -6,7 +6,7 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="./assets/Screenshot .png" alt="Completed design" width="900">
 
 ## Overview
 
