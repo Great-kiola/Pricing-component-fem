@@ -89,7 +89,7 @@ label.active{
   position: relative;
 }
 
-.priceBox h1.show{
+.show{
   position: absolute;
   top: 0;
   visibility: hidden;
@@ -111,11 +111,7 @@ label.active{
 .containers h1{
   display: flex;
   align-items: center;
-  font-size: 2.5rem;
-}
-
-.containers h1 span{
-  font-size: 4.5rem;
+  font-size: 4rem;
   padding: 10px;
 }
 
@@ -149,7 +145,8 @@ ul{
   list-style: none;
   width: 100%;
   text-align: center;
-
+  border-bottom: 1.5px solid var(--LightGrayishBlue);
+  margin-bottom: 20px;
 }
 
 li{
